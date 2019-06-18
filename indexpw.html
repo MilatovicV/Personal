@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap"
+        rel="stylesheet">
+    <title>Verica Milatovic</title>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="indexpw.html#about">About me</a></li>
+            <li><a href="indexpw.html#work">Work</a></li>
+            <li><a href="indexpw.html#skills">Skills</a></li>
+            <li><a href="indexpw.html#contact">Contact me</a></li>
+        </ul>
+
+    </div>
+    <div class="top">
+        <h1>I'm Verica.</h1>
+        <p>Front End Developer</p>
+    </div>
+    <div class="middle">
+        <hr>
+        <img src="images/verica.png" id="about" class="photo" alt="">
+        <hr>
+        <h3>About me</h3>
+        <p class="about">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum amet ipsum suscipit!
+            Vel nemo, ipsum vero explicabo vitae ab facilis fuga sint debitis natus laborum voluptates possimus dolor ea
+            est?</p>
+        <hr>
+    </div>
+    <div class="middle2">
+        <img id="work" src="images/development.png" alt="">
+    </div>
+    <div class="middle3">
+        <h3 id="skills">Work</h3>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur saepe non deserunt labore nemo corrupti, iste magni dolor est voluptates, sed soluta officiis odio culpa, quasi error quibusdam quisquam. Consequatur.
+       </p>
+       <hr>
+    </div>
+    <div class="skills">
+        <h3>Skills</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt odit iusto perspiciatis amet aspernatur? Cupiditate voluptatibus saepe soluta culpa aliquam iure, sed nam ullam, sequi nemo quam omnis aperiam quos.</p>
+        <hr>
+    </div>
+    <div class="contact">
+        <h2>Get in touch</h2>
+        <h3>lorengnkjfdngdjkng</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum deleniti assumenda dolor magnam, facilis vero molestias odit, vel voluptatibus ipsa atque minima accusamus, esse aspernatur impedit a. Explicabo, illo odit.</p>
+        <a class="mail" id="contact" href="mailto:milatovicverica@gmail.com"><img src="images/mail.png" alt=""></a><br>
+        <hr>
+        <div class="social">
+            <a href="https://www.facebook.com/verica.milatovic.9" class="fb"><img src="images/facebook1.png" alt=""></a>
+            <a href="https://www.instagram.com/vericamilatovic" class="instagram"><img src="images/instagram1.png" alt=""></a>
+            <a href="https://rs.linkedin.com/in/verica-milatovi%C4%87-74568689" class="link"><img src="images/linkedin.png" alt=""></a><br><br>
+            <hr>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        </div>
+    </div>
+    <div class="bottom">
+        <footer>
+            <span>&#169 2019. Verica Milatovic</span>
+        </footer>
+    </div>
+    <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+              } else {
+                document.getElementById("myBtn").style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+</body>
+
+</html>
